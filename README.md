@@ -8,4 +8,5 @@ localhost:8081 dans le navigateur web
 <br />
 sous linux:<br />
 ./gradlew run<br />
+environ 5 min d'attente pour récuperer toute les données<br />
 localhost:8081 dans le navigateur web
