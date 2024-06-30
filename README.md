@@ -1,4 +1,4 @@
-# pokemon
+
 sous windows
 executer gradlew.bat si jamais executé
 "gradlew run" dans le cmd
