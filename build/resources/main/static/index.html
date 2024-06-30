@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" >
+        <title> USERS </title>
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="icon" href="../images/pikachu.png" type="x-icon">
+    </head>
+
+    <body>
+
+        <div class="background-image"></div>
+
+        
+
+        <form onsubmit="login(event)" class="login-box">
+            <h2>Connexion</h2>
+            <label for="log_pseudo">Pseudo:</label>
+            <input type="text" id="log_pseudo" name="log_pseudo" placeholder="Pseudo...">
+            <p id="err_log_pseudo" class="erreur"></p>
+            <label for="log_password">Mot de passe:</label>
+            <input type="password" id="log_password" name="log_password" placeholder="Mot de passe...">
+            <p id="err_log_password" class="erreur"></p>
+            <input type="submit" value="Se connecter">
+            
+            <p id="login_error_message" class="erreur"></p>
+
+            <p>Vous n'avez pas de compte ? <a href="#" onclick="showSignUp()">Créer un compte</a></p>
+        </form>
+
+        <div class="signin-frame signup-box">
+            <form onsubmit="signin(event)">
+                <h2>Créer un compte</h2>
+                <div class="info">
+                    <label for="firstname">Prénom :</label>
+                    <input type="text" id="firstname" name="firstname" placeholder="Prénom...">
+                </div>
+                <p id="err_firstname" class="erreur"></p>
+    
+                <div class="info">
+                    <label for="lastname">Nom :</label>
+                    <input type="text" id="lastname" name="lastname" placeholder="Nom de Famille...">
+                </div>
+                <p id="err_lastname" class="erreur"></p>
+    
+                <div class="info">
+                    <label for="pseudo">Pseudo :</label>
+                    <input type="text" id="pseudo" name="pseudo" placeholder="Pseudo...">
+                </div>
+                <p id="err_pseudo" class="erreur"></p>
+    
+                <div class="info">
+                    <label for="email" >Email :</label>
+                    <input type="email" id="email" name="email"placeholder="Email..." >
+                </div>
+                <p id="err_email" class="erreur"></p>
+    
+                <div class="info">
+                    <label for="password" >Mot de passe :</label>
+                    <input type="password" id="password" name="password" placeholder="Mot de passe...">
+                </div>           
+                <p id="err_password" class="erreur"></p>
+            
+                <input type="submit" value="Valider">
+                <p>Vous avez déjà un compte ? <a href="#" onclick="showLogin()">Se connecter</a></p>
+            </form>
+        </div>
+
+
+    </body>
+    <script src="../js/connectPage.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+
+</html>

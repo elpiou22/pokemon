@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.uca"},{"l":"com.uca.core"},{"l":"com.uca.dao"},{"l":"com.uca.entity"},{"l":"com.uca.gui"}];updateSearchResults();
