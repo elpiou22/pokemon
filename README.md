@@ -1,6 +1,6 @@
 
 sous windows <br />
-executer gradlew.bat si jamais executé
-"gradlew run" dans le cmd
-environ 5 min d'attente pour récuperer toute les données
+executer gradlew.bat si jamais executé <br />
+"gradlew run" dans le cmd<br />
+environ 5 min d'attente pour récuperer toute les données<br />
 localhost:8081 dans le navigateur web
